@@ -1,0 +1,65 @@
+
+.obsh{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 600px;
+    background: #eeeeea;
+    border: 3px solid #ababe8;
+    padding: 20px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.zar{
+    display: flex;
+    flex-direction: column;
+}
+.trat{
+    display: flex;
+    flex-direction: column;
+}
+.svoboda{
+    display: flex;
+    flex-direction: column;
+
+}
+#ss{
+    width: 300px;
+
+}
+#o {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}#oo {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#ooo {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#a {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#aa {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#aaa {
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+.svoboda{
+    margin-top: 100px;
+}
