@@ -17,6 +17,9 @@ let triT = document.querySelector('#aaa');
 let vivodZP = document.querySelector('#itogo');
 let vivodTRAT = document.querySelector('#itogo1');
 let inputSV = document.querySelector('#itogoSV');
+let proc = document.querySelector('#ss');
+let proc1 = document.querySelector('#sss');
+let svinota = document.querySelector('#svinota');
 
 let a = Number(odin.value);
 let b = Number(dva.value);
@@ -47,4 +50,10 @@ triT.addEventListener('input', function () {
     sum(odinT.value, dvaT.value, triT.value, vivodTRAT)
     sv(vivodZP.value, vivodTRAT.value, inputSV);
 })
+proc.oninput = function() {
+    proc1.innerHTML = proc.value
+    let vsego = inputSV.value * proc.value / 100
+    console.log(inputSV.value)
+    svinota.innerHTML = vsego
+};
 
