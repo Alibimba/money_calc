@@ -25,7 +25,7 @@
 .svoboda{
     display: flex;
     flex-direction: column;
-
+    margin-top: 66px;
 }
 #ss{
     width: 300px;
@@ -60,11 +60,23 @@
     border: 1px solid #ababe8;
     border-radius: 40px;
 }
-.svoboda{
-    margin-top: 100px;
-}
 #vvv{
     position: absolute;
-    margin-top: 468px;
+    margin-top: 424px;
     margin-left: 415px;
+}
+#itogo{
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#itogo1{
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
+}
+#itogoSV{
+    height: 30px;
+    border: 1px solid #ababe8;
+    border-radius: 40px;
 }
